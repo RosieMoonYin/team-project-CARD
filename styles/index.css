@@ -1,0 +1,47 @@
+
+*{
+    background-color: #F5F5F5;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+body { 
+    max-width: 1440px;
+    width: 100%;
+    min-height: 1024;
+    margin: auto;
+}
+
+ul, li {
+    list-style: none;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1134px;
+    width: 100%;
+    min-height: 611px;
+    background-color: #5585B5;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #5585B5;
+    height: 330px;
+    width: 255px;
+    border-radius: 4px;
+}
+
